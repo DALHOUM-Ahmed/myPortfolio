@@ -1,10 +1,11 @@
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react"
-import Link from "next/link"
-import ClientReviews from "@/components/client-reviews"
-import ExperienceTimeline from "@/components/experience-timeline"
-import SkillsSection from "@/components/skills-section"
-import HeroSection from "@/components/hero-section"
-import AboutSection from "@/components/about-section"
+import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import Link from "next/link";
+import ClientReviews from "@/components/client-reviews";
+import ExperienceTimeline from "@/components/experience-timeline";
+import SkillsSection from "@/components/skills-section";
+import HeroSection from "@/components/hero-section";
+import AboutSection from "@/components/about-section";
+// import BookCallSection from "@/components/book-call-section";
 
 export default function Home() {
   return (
@@ -35,10 +36,12 @@ export default function Home() {
                 Upwork Profile
               </h3>
               <p className="text-lg mb-6 text-center text-gray-200">
-                View my verified work history and 5 awesome client reviews on Upwork.
+                View my verified work history and 5 awesome client reviews on
+                Upwork.
                 <span className="block mt-2 text-purple-300 font-medium">
-                  Note: I am not using Upwork for payments, it was just a way to communicate with clients receiving some
-                  of the amount there to close a job.
+                  Note: I am not using Upwork for payments, it was just a way to
+                  communicate with clients receiving some of the amount there to
+                  close a job.
                 </span>
               </p>
               <div className="flex justify-center">
@@ -60,10 +63,11 @@ export default function Home() {
                 LinkedIn Profile
               </h3>
               <p className="text-lg mb-6 text-center text-gray-200">
-                Connect with me professionally and explore my complete work history, skills, and recommendations on
-                LinkedIn.
+                Connect with me professionally and explore my complete work
+                history, skills, and recommendations on LinkedIn.
                 <span className="block mt-2 text-purple-300 font-medium">
-                  Stay updated with my latest projects and professional achievements.
+                  Stay updated with my latest projects and professional
+                  achievements.
                 </span>
               </p>
               <div className="flex justify-center">
@@ -81,7 +85,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      {/* <BookCallSection /> */}
       {/* Footer */}
       <footer className="py-10 px-4 sm:px-6 lg:px-8 border-t border-gray-800">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center">
@@ -89,7 +93,9 @@ export default function Home() {
             <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
               Ahmed Dalhoum
             </h2>
-            <p className="text-gray-400 mt-1">Blockchain Developer & Engineer</p>
+            <p className="text-gray-400 mt-1">
+              Blockchain Developer & Engineer
+            </p>
           </div>
           <div className="flex space-x-6">
             <Link
@@ -108,7 +114,10 @@ export default function Home() {
             >
               <Linkedin className="w-6 h-6" />
             </Link>
-            <Link href="mailto:dalhoum.co@gmail.com" className="text-gray-400 hover:text-white transition-colors">
+            <Link
+              href="mailto:dalhoum.co@gmail.com"
+              className="text-gray-400 hover:text-white transition-colors"
+            >
               <Mail className="w-6 h-6" />
             </Link>
           </div>
@@ -118,6 +127,5 @@ export default function Home() {
         </div>
       </footer>
     </main>
-  )
+  );
 }
-

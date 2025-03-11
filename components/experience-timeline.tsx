@@ -101,7 +101,7 @@ const experiences = [
     position: "AI R&D",
     period: "05/2020 – 04/2021",
     description: [
-      "Conducted thorough analysis of banking data used by financial platforms. My focus was on extracting intricate patterns within the data, facilitating the creation of predictive models",
+      "Conducted thorough analysis of banking data used by financial platforms. My focus was on extracting intricate patterns within the data, facilitating the creation of predictive models.",
       "Developed advanced predictive models capable of not only forecasting outcomes but also providing insights into the rationale behind each decision made by the AI system.",
       "Undertook projects involving Optical Character Recognition (OCR) technology. I worked on developing OCR solutions that could accurately interpret and convert text from images and documents.",
     ],
