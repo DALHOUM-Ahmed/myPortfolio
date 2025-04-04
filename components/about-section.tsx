@@ -40,7 +40,7 @@ export default function AboutSection() {
           >
             <div className="aspect-square rounded-2xl overflow-hidden border-4 border-purple-500/20 shadow-2xl shadow-purple-500/10">
               <img
-                src="/myphoto.jpeg?height=600&width=600"
+                src="/profsmile.png?height=600&width=600"
                 alt="Ahmed Dalhoum"
                 className="w-full h-full object-cover"
               />
